@@ -16,3 +16,6 @@
     /* Optional: silence DOM-related warnings */
     "skipLibCheck": true
   },
+  "include": ["src", "**/*.json"],
+  "typeRoots": ["./node_modules/@types", "./src/types"]
+}
