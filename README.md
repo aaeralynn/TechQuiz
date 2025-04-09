@@ -45,9 +45,6 @@ Users have the option to start a new quiz.
 ## Installation
 
 ### Clone the repository
-bash
-Copy
-Edit
 git clone <your-repository-url>  
 cd TechQuiz/Develop
 Install dependencies for both client and server
