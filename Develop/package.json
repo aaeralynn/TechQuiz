@@ -1,7 +1,6 @@
 {
   "name": "coding-quiz",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
   "scripts": {
     "start": "npm run client:build && npm run server",
@@ -30,5 +29,8 @@
     "typescript": "^5.5.3",
     "vitest": "^2.0.3",
     "wait-on": "^7.2.0"
-  }
+  },
+  "main": "vite.config.js",
+  "types": "./vite.config.d.ts",
+  "description": ""
 }

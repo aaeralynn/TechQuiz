@@ -1,13 +1,20 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
-    "composite": true /* Enable project references. */,
-    /* Modules */
-    "rootDir": "src" /* Specify the root folder within your source files. */,
+    "composite": true,
 
-    /* Emit */
-    "outDir": "dist" /* Specify an output folder for all emitted files. */
-    // "noEmitOnError": true /* Disable emitting files if any type checking errors are reported. */
+    /* Modules */
+    "rootDir": "src",
+    "outDir": "dist",
+
+    /* Override frontend stuff */
+    "types": ["node"],
+
+    /* Optional: avoid compiling unused React/DOM stuff */
+    "lib": ["ES2020"],
+
+    /* Optional: silence DOM-related warnings */
+    "skipLibCheck": true
   },
   "include": ["src", "**/*.json"],
   "typeRoots": ["./node_modules/@types", "./src/types"]
