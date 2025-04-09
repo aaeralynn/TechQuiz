@@ -42,40 +42,34 @@ Users are shown their final score.
 After the quiz ends
 Users have the option to start a new quiz.
 
-### Installation
-Clone the repository
+## Installation
+
+### Clone the repository
 bash
 Copy
 Edit
 git clone <your-repository-url>  
 cd TechQuiz/Develop
 Install dependencies for both client and server
-bash
-Copy
-Edit
 cd server  
 npm install  
 
 cd ../client  
 npm install  
+
 Create a .env file in the server directory and add your environment variables
-plaintext
-Copy
-Edit
+env
 MONGODB_URI=<your-mongodb-atlas-connection-string>  
 JWT_SECRET=<your-secret-key>
 Build and start the application
 bash
-Copy
-Edit
 npm run build  
-npm run start
+npm run start  
 Usage
-Launch the app and click "Start Quiz".
-
-Answer all 10 questions.
-
-View your final score and take the quiz again if desired.
+Launch the app and click "Start Quiz" to begin.
+Answer all 10 random questions.
+After completing the quiz, view your final score.
+Click "Restart Quiz" to take it again.
 
 Technologies Used
 Frontend
@@ -84,30 +78,28 @@ React (TypeScript)
 Cypress (Component + End-to-End Testing)
 
 Backend
-Node.js, Express.js
+Node.js
+
+Express.js
 
 Database
 MongoDB (hosted on MongoDB Atlas)
 
 Authentication
-JSON Web Tokens (JWT) (if user login is implemented)
+JSON Web Tokens (JWT) (if implemented)
 
 Cypress Testing
 Running Cypress Tests
-To start Cypress:
-
-bash
-Copy
-Edit
 npm run test
+
 Component Tests
-Cypress tests for individual UI components (e.g., quiz logic, buttons).
+Cypress tests verify the functionality of individual UI components (e.g., quiz rendering, answer buttons).
 
 End-to-End Tests
-Cypress tests simulating the full quiz flow: start → answer → score → restart.
+Simulate the full user flow from starting the quiz → answering questions → viewing the score → restarting the quiz.
 
 Link to Deployed Application
-The app is connected to MongoDB Atlas, but deployment is not yet live.
+App is connected to MongoDB Atlas, but deployment is not yet live.
 
 Sources Utilized
 Xpert Live Assistant
@@ -117,5 +109,4 @@ Cypress Documentation
 Peer Collaboration
 
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+This project is licensed under the MIT License – see the LICENSE file for details.
