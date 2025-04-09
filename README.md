@@ -61,10 +61,11 @@ Create a .env file in the server directory and add your environment variables
 env
 MONGODB_URI=<your-mongodb-atlas-connection-string>  
 JWT_SECRET=<your-secret-key>
+
 Build and start the application
-bash
 npm run build  
 npm run start  
+
 Usage
 Launch the app and click "Start Quiz" to begin.
 Answer all 10 random questions.
