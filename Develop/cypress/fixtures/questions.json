@@ -1,0 +1,67 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "choices": [
+      "Hyper Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyperlinks and Text Markup Language",
+      "Hyper Tool Modern Language"
+    ],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "question": "Which of the following is a JavaScript data type?",
+    "choices": ["Boolean", "Character", "Float", "Double"],
+    "answer": "Boolean"
+  },
+  {
+    "question": "What does CSS stand for?",
+    "choices": [
+      "Colorful Style Sheets",
+      "Computer Style Sheets",
+      "Creative Style System",
+      "Cascading Style Sheets"
+    ],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "question": "Which method is used to fetch data in React?",
+    "choices": ["getData()", "useEffect()", "fetch()", "useState()"],
+    "answer": "fetch()"
+  },
+  {
+    "question": "What keyword is used to create a constant in JavaScript?",
+    "choices": ["let", "var", "constant", "const"],
+    "answer": "const"
+  },
+  {
+    "question": "Which company developed React?",
+    "choices": ["Google", "Facebook", "Microsoft", "Twitter"],
+    "answer": "Facebook"
+  },
+  {
+    "question": "What does SQL stand for?",
+    "choices": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "Statement Question Language",
+      "Stylish Question Language"
+    ],
+    "answer": "Structured Query Language"
+  },
+  {
+    "question": "Which hook is used to manage state in a functional component?",
+    "choices": ["useEffect", "useState", "useRef", "useContext"],
+    "answer": "useState"
+  },
+  {
+    "question": "What is the default port for a React development server?",
+    "choices": ["3000", "5000", "8080", "8000"],
+    "answer": "3000"
+  },
+  {
+    "question": "Which HTTP method is typically used to create a resource?",
+    "choices": ["GET", "POST", "PUT", "DELETE"],
+    "answer": "POST"
+  }
+]
