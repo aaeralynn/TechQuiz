@@ -68,7 +68,12 @@ MONGODB_URI=<your-mongodb-atlas-connection-string>
 
 Build and start the application
 npm run build  
-npm run start
+
+cd server
+npm run dev
+
+cd client
+npm run dev
 
 Usage
 Launch the app and click "Start Quiz" to begin.
